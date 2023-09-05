@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {NgIf} from '@angular/common';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

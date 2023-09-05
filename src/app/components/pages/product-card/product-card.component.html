@@ -1,0 +1,20 @@
+
+  <div class="row row-cols-md-3 g-4 h-100">
+    <div class="col-md-4" *ngFor="let item of data">
+      <div class="card d-flex flex-column h-100">
+        <div class="card-image-container">
+          <img src="{{item.thumbnail}}" class="card-img-top custom-card-image" />
+        </div>
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">{{item.title}}</h5>
+          <p class="card-text">
+            {{item.description}}
+          </p>
+          <p>
+            $ {{item.price}}
+          </p>
+          <button type="button" class="btn btn-dark"><i class="fa-solid fa-cart-shopping" style="color: #ffffff; margin-right: 5px;"></i><span> Add To Cart</span></button>
+        </div>
+      </div>
+    </div>
+  </div>

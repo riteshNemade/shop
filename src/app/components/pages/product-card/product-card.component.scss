@@ -1,0 +1,13 @@
+.card-image-container {
+    width: 100%; /* Set your desired width */
+    height: 100%; /* Set your desired height */
+    overflow: hidden; /* Clip the image to the container dimensions */
+  }
+  
+  .custom-card-image {
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    height: 100%; /* Ensure the image takes up the full height of the container */
+    object-fit:cover; /* Preserve aspect ratio and cover the entire container */
+  }
+  
+  
